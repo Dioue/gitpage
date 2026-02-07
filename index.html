@@ -122,7 +122,7 @@
             <a href="#" class="btn no-btn" id="noButton">No</a>
         </div>
 
-        <pre class="ascii-heart" style="font-size: 8px; line-height: 1; color: #ff4d6d; font-weight: bold;">
+        <pre id="ascii-heart" style="font-size: 8px; line-height: 1; color: #ff4d6d; font-weight: bold; display: none;">
           ______       ______
         ██████████   ██████████
          ████████████████████████████
@@ -144,7 +144,7 @@
         const yesBtn = document.getElementById('yesButton');
         const question = document.getElementById('question');
         const nameText = document.getElementById('name');
-        const giga = document.getElementById('gigachad');
+        const giga = document.getElementById('ascii-heart');
         const controls = document.getElementById('controls');
 
         // The "No" button escape logic (Mobile & Desktop)
@@ -202,3 +202,4 @@
     </script>
 </body>
 </html>
+
